@@ -1,0 +1,103 @@
+@font-face {
+    font-family: "Oswald";
+    src: url('../FONTS/Oswald/Oswald-VariableFont_wght.ttf');
+}
+@font-face {
+    font-family: "Montserrat";
+    src: url('../FONTS/Montserrat/Montserrat-VariableFont_wght.ttf');
+}
+
+* 
+{
+    padding: 0;
+    margin: 0;
+}
+
+/* header block */
+
+header 
+{
+    height: 795px;
+    background: #303030 url('../IMG/background_container.jpg') 100% 100% no-repeat;
+    background-size: 100% 100%;
+}
+
+.wrapper_block_1
+{
+    height: 102px;
+    background: #303030;
+}
+
+header .wrapper_block_1 img 
+{
+    margin: 19px 0 16px 81px;
+}
+
+header .wrapper_block_1 .navbar_panel 
+{
+    float: right;
+    margin: 39px 388px 0 0;
+}
+
+header .wrapper_block_1 .navbar_panel a 
+{ 
+    color: white;
+    font: normal 25px "Oswald";
+    line-height: 1.2;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-right: 55px; 
+}
+
+header .wrapper_block_1 .btn_search 
+{
+    float: right;
+    width: 30px;
+    height: 30px;
+    background: #303030 url('../IMG/find_icon.png');
+    margin: 38px 58px 34px 0;
+}
+
+header .wrapper_block_2
+{
+    height: 693px;
+    width: 100%;
+    outline: 1px solid red;
+}
+
+header .wrapper_block_2 .container_header_1 
+{
+    height: 600px;
+    
+}
+
+header .wrapper_block_2 .container_header_1 h2
+{
+    color: #ffffff;
+    font: normal 400 124.7px 'Oswald';
+    line-height: 1.2;
+}
+
+header .wrapper_block_2 .container_header_1 p
+{
+    color: #ffffff;
+    font: normal 400 29.8px 'Montserrat';
+    line-height: 1.2;
+  
+}
+
+header .wrapper_block_2 .container_header_1 .btn_register_now
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 322px;
+    height: 65px;
+    background-color: #e8631c;
+    border-radius: 4px;
+    color: #ffffff;
+    font: normal 400 29.2px 'Oswald';
+    line-height: 1.2;
+    text-transform: uppercase;
+    
+}
