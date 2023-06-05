@@ -60,6 +60,9 @@ header .wrapper_block_1 .btn_search
 
 header .wrapper_block_2
 {
+    display: flex;
+    align-items: center;
+    justify-content: left;
     height: 693px;
     width: 100%;
     outline: 1px solid red;
@@ -67,13 +70,15 @@ header .wrapper_block_2
 
 header .wrapper_block_2 .container_header_1 
 {
-    height: 600px;
+    
+    margin: 160px 0 0 120px;
     
 }
 
 header .wrapper_block_2 .container_header_1 h2
 {
     color: #ffffff;
+    margin-bottom: 20px;
     font: normal 400 124.7px 'Oswald';
     line-height: 1.2;
 }
@@ -93,6 +98,7 @@ header .wrapper_block_2 .container_header_1 .btn_register_now
     justify-content: center;
     width: 322px;
     height: 65px;
+    margin-top: 44px;
     background-color: #e8631c;
     border-radius: 4px;
     color: #ffffff;
@@ -100,4 +106,20 @@ header .wrapper_block_2 .container_header_1 .btn_register_now
     line-height: 1.2;
     text-transform: uppercase;
     
+}
+
+/* header block end */
+
+/* content block */
+
+.content_wrapper_1 
+{
+    height: 974px;
+    background: #e8631c url('../IMG/bg_content_wrapper.png') left  no-repeat;
+    background-position-y: top left;
+}
+
+.content_wrapper_1 .content_block_1 
+{
+
 }
