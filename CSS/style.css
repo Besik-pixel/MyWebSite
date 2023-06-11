@@ -1,6 +1,6 @@
 @font-face {
     font-family: "Oswald";
-    src: url('../FONTS/Oswald/Oswald-VariableFont_wght.ttf');
+    src: url('../FONTS/Oswald/static/Oswald-Regular.ttf');
 }
 @font-face {
     font-family: "Montserrat";
@@ -22,40 +22,55 @@ header
     background-size: 100% 100%;
 }
 
-.wrapper_block_1
+header .wrapper_block_1
 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
     height: 102px;
     background: #303030;
 }
 
 header .wrapper_block_1 img 
 {
-    margin: 19px 0 16px 81px;
+    margin-left: 81px;
+    width: 127px;
+    height: 67px;
 }
 
-header .wrapper_block_1 .navbar_panel 
+header .wrapper_block_1 .navbar_container
 {
-    float: right;
-    margin: 39px 388px 0 0;
+    display: flex;
+    flex-grow: 1;
+    justify-content: flex-end;
 }
 
-header .wrapper_block_1 .navbar_panel a 
+header .wrapper_block_1 .navbar_container nav 
+{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 330px;
+    width: 545px;
+}
+
+header .wrapper_block_1 .navbar_container nav a 
 { 
+    display: flex; 
+    flex-wrap: wrap;
     color: white;
-    font: normal 25px "Oswald";
+    font: normal 25px 'Oswald';
     line-height: 1.2;
     text-transform: uppercase;
     text-decoration: none;
-    margin-right: 55px; 
 }
 
 header .wrapper_block_1 .btn_search 
 {
-    float: right;
     width: 30px;
     height: 30px;
-    background: #303030 url('../IMG/find_icon.png');
-    margin: 38px 58px 34px 0;
+    margin-right: 58px;
+    background: #303030 url('../IMG/find_icon.png'); 
 }
 
 header .wrapper_block_2
@@ -65,7 +80,7 @@ header .wrapper_block_2
     justify-content: left;
     height: 693px;
     width: 100%;
-    outline: 1px solid red;
+    
 }
 
 header .wrapper_block_2 .container_header_1 
@@ -86,7 +101,7 @@ header .wrapper_block_2 .container_header_1 h2
 header .wrapper_block_2 .container_header_1 p
 {
     color: #ffffff;
-    font: normal 400 29.8px 'Montserrat';
+    font: normal 29.8px 'Montserrat';
     line-height: 1.2;
   
 }
@@ -115,11 +130,19 @@ header .wrapper_block_2 .container_header_1 .btn_register_now
 .content_wrapper_1 
 {
     height: 974px;
-    background: #e8631c url('../IMG/bg_content_wrapper.png') left  no-repeat;
-    background-position-y: top left;
+    background: #e8631c url('../IMG/bg_content_wrapper.png') no-repeat;
+    background-position: 0% 190%;
 }
 
-.content_wrapper_1 .content_block_1 
+.content_wrapper_1 .content_container_1
 {
+    outline: 1px solid white;
+}
 
+.content_wrapper_1 .content_container_1 h1
+{
+    font: 700 75px 'Oswald';
+    line-height: 1.2;
+    text-transform: uppercase;
+    color: #ffffff;
 }
