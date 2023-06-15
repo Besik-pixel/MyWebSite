@@ -1,148 +1,28 @@
-@font-face {
-    font-family: "Oswald";
-    src: url('../FONTS/Oswald/static/Oswald-Regular.ttf');
-}
-@font-face {
-    font-family: "Montserrat";
-    src: url('../FONTS/Montserrat/Montserrat-VariableFont_wght.ttf');
-}
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto&display=swap');
 * 
 {
     padding: 0;
     margin: 0;
-}
-
-/* header block */
-
-header 
-{
-    height: 795px;
-    background: #303030 url('../IMG/background_container.jpg') 100% 100% no-repeat;
-    background-size: 100% 100%;
-}
-
-header .wrapper_block_1
-{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    height: 102px;
-    background: #303030;
-}
-
-header .wrapper_block_1 img 
-{
-    margin-left: 81px;
-    width: 127px;
-    height: 67px;
-}
-
-header .wrapper_block_1 .navbar_container
-{
-    display: flex;
-    flex-grow: 1;
-    justify-content: flex-end;
-}
-
-header .wrapper_block_1 .navbar_container nav 
-{
-    display: flex;
-    justify-content: space-between;
-    margin-right: 330px;
-    width: 545px;
-}
-
-header .wrapper_block_1 .navbar_container nav a 
-{ 
-    display: flex; 
-    flex-wrap: wrap;
-    color: white;
-    font: normal 25px 'Oswald';
-    line-height: 1.2;
-    text-transform: uppercase;
-    text-decoration: none;
-}
-
-header .wrapper_block_1 .btn_search 
-{
-    width: 30px;
-    height: 30px;
-    margin-right: 58px;
-    background: #303030 url('../IMG/find_icon.png'); 
-}
-
-header .wrapper_block_2
-{
-    display: flex;
-    align-items: center;
-    justify-content: left;
-    height: 693px;
-    width: 100%;
+    box-sizing: border-box;
     
 }
 
-header .wrapper_block_2 .container_header_1 
-{
-    
-    margin: 160px 0 0 120px;
-    
+
+body 
+{   
+    font-family: "Montserrat";
+    background:  url('../IMG/background_color.png') no-repeat #15306f;
 }
 
-header .wrapper_block_2 .container_header_1 h2
-{
-    color: #ffffff;
-    margin-bottom: 20px;
-    font: normal 400 124.7px 'Oswald';
-    line-height: 1.2;
+.container-main-page
+{   
+
+
 }
 
-header .wrapper_block_2 .container_header_1 p
+.container-logo-image 
 {
-    color: #ffffff;
-    font: normal 29.8px 'Montserrat';
-    line-height: 1.2;
-  
-}
-
-header .wrapper_block_2 .container_header_1 .btn_register_now
-{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 322px;
-    height: 65px;
-    margin-top: 44px;
-    background-color: #e8631c;
-    border-radius: 4px;
-    color: #ffffff;
-    font: normal 400 29.2px 'Oswald';
-    line-height: 1.2;
-    text-transform: uppercase;
-    
-}
-
-/* header block end */
-
-/* content block */
-
-.content_wrapper_1 
-{
-    height: 974px;
-    background: #e8631c url('../IMG/bg_content_wrapper.png') no-repeat;
-    background-position: 0% 190%;
-}
-
-.content_wrapper_1 .content_container_1
-{
-    outline: 1px solid white;
-}
-
-.content_wrapper_1 .content_container_1 h1
-{
-    font: 700 75px 'Oswald';
-    line-height: 1.2;
-    text-transform: uppercase;
-    color: #ffffff;
+    outline: 2px solid green;
+    width: 268px;
+    height: 228px;
 }
